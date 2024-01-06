@@ -1,0 +1,69 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.Servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/regUser</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/logUser</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddNoteServlet</servlet-name>
+    <servlet-class>com.Servlet.AddNoteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddNoteServlet</servlet-name>
+    <url-pattern>/addNote</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>showNotesServlet</servlet-name>
+    <servlet-class>com.Servlet.ShowNotesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showNotesServlet</servlet-name>
+    <url-pattern>/showNotes</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>editNotesServlet</servlet-name>
+    <servlet-class>com.Servlet.EditNotesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>editNotesServlet</servlet-name>
+    <url-pattern>/editNotes</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>deleteNotesServlet</servlet-name>
+    <servlet-class>com.Servlet.DeleteNotesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteNotesServlet</servlet-name>
+    <url-pattern>/deleteNotes</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+  <listener>
+    <listener-class>com.Servlet.DBListener</listener-class>
+  </listener>
+</web-app>
