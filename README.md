@@ -53,7 +53,16 @@ To run the E-Notes web application locally, follow these steps:<br><br>
    - Create, edit, show, and delete your notes.
    
 ## ScreenShots
-
+![Example Image](screenshots/1.jpg)
+![Example Image](screenshots/2.jpg)
+![Example Image](screenshots/3.jpg)
+![Example Image](screenshots/4.jpg)
+![Example Image](screenshots/5.jpg)
+![Example Image](screenshots/6.jpg)
+![Example Image](screenshots/7.jpg)
+![Example Image](screenshots/8.jpg)
+![Example Image](screenshots/9.jpg)
+![Example Image](screenshots/10.jpg)
 
 ## Contributions
 Contributions are welcome! If you find a bug or have suggestions for improvement, feel free to open an issue or create a pull request.
